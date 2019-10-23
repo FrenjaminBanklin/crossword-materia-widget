@@ -15,6 +15,10 @@ const customCopy = copy.concat([
 		to: path.join(outputPath, 'guides', 'assets'),
 		toType: 'dir'
 	},
+	{
+		from: path.join(__dirname, 'src', 'scoreDemo.json'),
+		to: path.join(outputPath, 'scoreDemo.json')
+	}
 ])
 
 const entries = {
